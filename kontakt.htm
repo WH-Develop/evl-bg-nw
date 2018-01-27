@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <title>Brüdergemeinde NW</title>
+  </head>
+  <body>
+    <?php include ("kontakt"); ?>
+
+    <div id="main-nav" class="nav">
+      <img src="bilder/logo.png" width="6%" height="6%" align="middle" alt="logo">
+      <a class="nav-item" href="index.htm">Wilkommen</a>
+      <a class="nav-item" href="termine.htm">Termine</a>
+      <a class="nav-item" href="mission.htm">Mission</a>
+      <a class="nav-item" href="gruppe.htm">Gruppen</a>
+      <a class="nav-item" href="ueber.htm">Über uns</a>
+      <a class="nav-item-inaktiv">Kontakt</a>
+
+    </div>
+    <div class="container">
+      <h1>Kontakt</h1>
+      <div class="container-black">
+      <table>
+        <tr><th rowspan="2"><img src="bilder/kontakt.png" width="30%" height="30%"  align="middle" alt="kontakt"></th>
+          <th>rufe mich an in der Not, so will ich dich erretten</th>
+        </tr>
+        <tr><th>Psalm 50, 15</th>
+        </tr>
+      </table>
+      </div>
+      <a><div class="k-container">
+
+        <form method="post" action="send_email.php">
+          <table style="float:left">
+            <tr><th rowspan="4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1299.4451989017366!2d8.151991856879437!3d49.354222979339184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796488d3dfce68b%3A0x6a85857aa90ec4c3!2sMartin-Luther-Kirche!5e0!3m2!1sde!2sde!4v1516812887794" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </th>
+                <th><label for="Name"><b>Name:</b></label><br>
+                  <input type="text" id="Name" name="Name"><br>
+                </th>
+                <th><label for="Email"><b>E-Mail:</b></label><br>
+                      <input type="text" id="Email" name="Email"><br>
+                    </th>
+                    <th rowspan="4"><p class="card-kh">Vorsitzender</p>
+                      <p class="card-k">Wilhelm Eichholz
+                      <br>Ev-luth. Brüdergemeinde Neustadt/WStr. e.V.
+                      <br>Heinrich-Strieffler-Str. 52
+                      <br>Neustadt an der Weinstr., 67433</p>
+                      <p class="card-kh">Website Verantwortlicher</p>
+                      <p class="card-k">Witali Hettmann
+                      <br>WH-Develop
+                      <br>Langenschemelstr. 74
+                      <br>Neustadt an der Weinstr., 67435</p>
+                    </th>
+            </tr>
+            <tr>
+                <th><label for="Betreff"><b>Betreff:</b></label><br>
+                  <input type="text" id="Betreff" name="Betreff"><br>
+                </th>
+
+            </tr>
+            <tr>
+                <th colspan="2"><label for="Nachricht"><b>Nachricht:</b></label><br>
+                  <textarea id="Nachricht" name="Nachricht" rows="5" cols="40"></textarea> <br>
+                </th>
+            </tr>
+            <tr>
+                <th><input type="submit" name="submit">
+                    </th>
+            </tr>
+
+          </table>
+        </form>
+        </div>
+      </a>
+    </div>
+    <div align="left">
+          <a class="imp" href="impressum.htm">Impressum</a>
+          <a class="imp" href="spende.htm">Spende</a>
+    </div>
+<div class="c-right" align="middle">
+  <article>
+    <ul>
+        <div><a href="http://wh-develop.de/">©2017 WH-Develop</a></div>
+
+    </ul>
+
+  </article>
+</div>
+  </body>
+
+</html>

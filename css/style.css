@@ -1,0 +1,181 @@
+body {
+
+  margin:0;
+  padding:0;
+  height:100%;
+  background-color:
+}
+
+h1, h2, h3{
+  font-family: 'Marcellus SC', serif;
+}
+a{
+    outline: 0;
+    display:inline-grid;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+
+
+}
+.nav{
+  margin-left: 20px;
+  margin-top: 5px;
+  text-align: center;
+    font-size: 1.5em;
+    font-family: 'Marcellus SC', serif;
+}
+
+.nav-item{
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.nav-item:hover{
+  color: #ffffff;
+  background-color: #722B72;
+  height: 59px;
+}
+
+.nav-item-inaktiv{
+  color: #ffffff;
+  background-color: #8A3D8A;
+  height: 59px;
+
+
+}
+
+.imp{
+  color: #ffffff;
+background-color: #000000;
+font-family: 'Marcellus SC', serif;
+
+}
+
+.imp:hover{
+  color: #ffffff;
+  background-color: #722B72;
+  font-family: 'Marcellus SC', serif;
+}
+
+.imp-inaktiv{
+  color: #ffffff;
+  background-color: #8A3D8A;
+  font-family: 'Marcellus SC', serif;
+}
+
+.link{
+  color: #ffffff;
+}
+
+.link:hover{
+  color: #8A3D8A;
+}
+
+.div-nav {
+  min-height: 20px;
+}
+
+
+
+.container {
+    color: #ffffff;
+    background-color: #8A3D8A;
+    padding-top: 10px;
+	padding-bottom: 10px;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Marcellus SC', serif;
+
+}
+.k-container {
+    color: #ffffff;
+    background-color: #8A3D8A;
+    padding-top: 10px;
+	padding-bottom: 10px;
+  text-align: left;
+  font-size: 1.3em;
+  font-family: 'Marcellus SC', serif;
+}
+.container-black {
+    color: #ffffff;
+    background-color: #000000;
+    padding-top: 10px;
+	padding-bottom: 10px;
+  text-align: center;
+  font-size: 1.0em;
+  font-family: 'Marcellus SC', serif;
+}
+.t-container {
+    color: #ffffff;
+    background-color: #8A3D8A;
+    padding-top: 10px;
+	padding-bottom: 10px;
+  text-align: left;
+  font-size: 1.3em;
+  font-family: 'Marcellus SC', serif;
+
+}
+
+.card-head{
+  font-weight: 300;
+  font-size: 1.3em;
+  text-align: left;
+  vertical-align: top;
+  text-decoration: underline;
+}
+.card-txt{
+
+  font-size: 1.0em;
+  text-align: left;
+
+}
+.card-kh{
+  font-size: 1.0em;
+  text-align: left;
+  vertical-align: top;
+  text-decoration: underline;
+
+}
+.card-k{
+  font-size: 0.7em;
+  text-align: left;
+  vertical-align: top;
+
+}
+
+.top{
+  vertical-align: top;
+}
+
+.c-right{
+  color:#000000;
+  font-size: 1.0em;
+}
+
+.anchor
+{
+    min-height: 0;
+    max-height: 0;
+}
+#container {
+    min-height:100%;
+    position:relative;
+}
+
+#body {
+    padding: 10px 0 100px;
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;
+}
+#rcorners6 {
+    border-radius: 15px 50px;
+    background: #f77726;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
